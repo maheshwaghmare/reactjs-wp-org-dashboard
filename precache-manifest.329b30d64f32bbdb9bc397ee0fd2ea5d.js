@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "bf9b4c2d9173a729ba2d683608741578",
+    "revision": "d4910ef7d973eb4b4f01e3477f3e1fa9",
     "url": "/reactjs-wp-org-dashboard/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/reactjs-wp-org-dashboard/static/css/2.17e5ed98.chunk.css"
   },
   {
-    "revision": "4126018296181b3bb09c",
+    "revision": "71a16fd0b7f9323e2c04",
     "url": "/reactjs-wp-org-dashboard/static/css/main.b7baf18c.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/reactjs-wp-org-dashboard/static/js/2.6e789318.chunk.js.LICENSE"
   },
   {
-    "revision": "4126018296181b3bb09c",
-    "url": "/reactjs-wp-org-dashboard/static/js/main.efebceeb.chunk.js"
+    "revision": "71a16fd0b7f9323e2c04",
+    "url": "/reactjs-wp-org-dashboard/static/js/main.e0c3b3bf.chunk.js"
   },
   {
     "revision": "dc144d344e33e7b68591",

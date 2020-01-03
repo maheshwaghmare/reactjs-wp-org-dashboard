@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/reactjs-wp-org-dashboard/static/css/main.b7baf18c.chunk.css",
-    "main.js": "/reactjs-wp-org-dashboard/static/js/main.efebceeb.chunk.js",
-    "main.js.map": "/reactjs-wp-org-dashboard/static/js/main.efebceeb.chunk.js.map",
+    "main.js": "/reactjs-wp-org-dashboard/static/js/main.e0c3b3bf.chunk.js",
+    "main.js.map": "/reactjs-wp-org-dashboard/static/js/main.e0c3b3bf.chunk.js.map",
     "runtime-main.js": "/reactjs-wp-org-dashboard/static/js/runtime-main.beff522b.js",
     "runtime-main.js.map": "/reactjs-wp-org-dashboard/static/js/runtime-main.beff522b.js.map",
     "static/css/2.17e5ed98.chunk.css": "/reactjs-wp-org-dashboard/static/css/2.17e5ed98.chunk.css",
     "static/js/2.6e789318.chunk.js": "/reactjs-wp-org-dashboard/static/js/2.6e789318.chunk.js",
     "static/js/2.6e789318.chunk.js.map": "/reactjs-wp-org-dashboard/static/js/2.6e789318.chunk.js.map",
     "index.html": "/reactjs-wp-org-dashboard/index.html",
-    "precache-manifest.c5a26335a81f56cf1fbb1b477b381e8f.js": "/reactjs-wp-org-dashboard/precache-manifest.c5a26335a81f56cf1fbb1b477b381e8f.js",
+    "precache-manifest.329b30d64f32bbdb9bc397ee0fd2ea5d.js": "/reactjs-wp-org-dashboard/precache-manifest.329b30d64f32bbdb9bc397ee0fd2ea5d.js",
     "service-worker.js": "/reactjs-wp-org-dashboard/service-worker.js",
     "static/css/2.17e5ed98.chunk.css.map": "/reactjs-wp-org-dashboard/static/css/2.17e5ed98.chunk.css.map",
     "static/css/main.b7baf18c.chunk.css.map": "/reactjs-wp-org-dashboard/static/css/main.b7baf18c.chunk.css.map",
@@ -20,6 +20,6 @@
     "static/css/2.17e5ed98.chunk.css",
     "static/js/2.6e789318.chunk.js",
     "static/css/main.b7baf18c.chunk.css",
-    "static/js/main.efebceeb.chunk.js"
+    "static/js/main.e0c3b3bf.chunk.js"
   ]
 }
