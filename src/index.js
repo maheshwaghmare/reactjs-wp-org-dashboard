@@ -226,7 +226,7 @@ class ThemesContainer extends React.Component {
   // };
   
   initialLoadSites = () => {
-    fetch( 'http://api.wordpress.org/themes/info/1.1/?action=query_themes&request[browse]=popular&request[per_page]=10' ).then(response => {
+    fetch( 'https://api.wordpress.org/themes/info/1.1/?action=query_themes&request[browse]=popular&request[per_page]=10' ).then(response => {
         return response.json();
       }).then(data => {
 
@@ -238,7 +238,7 @@ class ThemesContainer extends React.Component {
         } );
       });
 
-    fetch( 'http://api.wordpress.org/themes/info/1.1/?action=query_themes&request[browse]=new&request[per_page]=10' ).then(response => {
+    fetch( 'https://api.wordpress.org/themes/info/1.1/?action=query_themes&request[browse]=new&request[per_page]=10' ).then(response => {
         return response.json();
       }).then(data => {
 
@@ -330,7 +330,7 @@ class ThemesContainer extends React.Component {
   searchTheme = ( event ) => {
     let search_term = event.target.value;
     if( event.target.value ) {
-      fetch( 'http://api.wordpress.org/themes/info/1.1/?action=query_themes&request[search]=' + event.target.value ).then(response => {
+      fetch( 'https://api.wordpress.org/themes/info/1.1/?action=query_themes&request[search]=' + event.target.value ).then(response => {
         return response.json();
       }).then(data => {
 
