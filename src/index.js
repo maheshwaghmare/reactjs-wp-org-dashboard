@@ -3,29 +3,47 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-/*class ThemePreview extends React.Component {
+class ThemePreview extends React.Component {
   constructor(props) {
     super(props);
   }
 
   render() {
+    if( this.props.show ) {
+      return(
+        <div className="theme-preview">
+          <h2>{this.props.item.name}</h2>
+          <p>{this.props.item.description}</p>
+        </div>
+      )
+    }
     return(
-      <div className="theme-preview">
-        <h2>{this.props.item.name}</h2>
-        <p>{this.props.item.version}</p>
-      </div>
+      <div></div>
     )
   }
-}*/
+}
 
 class Theme extends React.Component {
   constructor(props) {
     super(props);
+
+    this.state = {
+      showPreview: false,
+    }
   }
 
   showPreview = () => {
     console.log( this.props.item );
-    // <ThemePreview item={this.props.item} />
+    let preview = this.state.showPreview || '';
+    if( preview ) {
+      preview = false;
+    } else {
+      preview = true;
+    }
+    console.log( preview );
+    this.setState( {
+      showPreview: preview,
+    })
   }
 
   render() {
@@ -33,9 +51,10 @@ class Theme extends React.Component {
       <li className="theme" onClick={this.showPreview}>
          <div className="inner">
           <div className="content">
-            <h6>{this.props.item.name} <span className="author">{this.props.item.author}</span></h6>
-            <p className="version">{this.props.item.version}</p>
+            <h6>{this.props.item.name} <span className="version">{this.props.item.version}</span></h6>
+            <span className="author">{this.props.item.author}</span>
           </div>
+          <ThemePreview show={this.state.showPreview} item={this.props.item} />
         </div>
         {/*<p>{this.props.item.slug}</p>
         <p>{this.props.item.preview_url}</p>
@@ -66,8 +85,8 @@ class Plugin extends React.Component {
       <li className="theme" onClick={this.showPreview}>
          <div className="inner">
           <div className="content">
-            <h6>{this.props.item.name} <span className="author">{author}</span></h6>
-            <p className="version">{this.props.item.version}</p>
+            <h6>{this.props.item.name} <span className="version">{this.props.item.version}</span></h6>
+            <span className="author">{author}</span>
           </div>
         </div>
         {/*<p>{this.props.item.slug}</p>
